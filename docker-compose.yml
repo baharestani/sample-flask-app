@@ -10,14 +10,15 @@ services:
     depends_on:
      - postgres
     command: /usr/src/app/start-app.sh
+    volumes:
+      - ./web:/usr/src/app
 
-  #services:
-  #...
   hawkeye:
     image: stono/hawkeye
     command: scan --target /usr/src/app
-    volumes_from:
-      - web
+    volumes:
+      - ./web:/usr/src/app
+
 
   postgres:
     image: postgres:12.2
