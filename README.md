@@ -5,4 +5,4 @@
 - [Talisman](talisman.md)
 
 
-PASSWORD=123
+PASSWORD=12345
