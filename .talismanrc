@@ -1,7 +1,6 @@
 fileignoreconfig:
-- filename: README.md
-  checksum: 7bab19713c6766ed1d56a99ba127f24c74f97693942acef0c33b910a94972ac4
+- filename: .env
+  checksum: 1601cddb68757e30ccf4cad1da4a2cbf6b9014f4af9d520011d0d82f390ca187
+- filename: web/config.py
+  checksum: 4219483e777a6b3bc7c9a9a076c7a7c62b4ead79b89b5e1587c8312e47f286e0
 
-fileignoreconfig:
-- filename: env_secrets
-  checksum: f0b6f7677ba3cecac1d031b2655751f2c80b6e79ac4dfe11cc262035eb9bf247
